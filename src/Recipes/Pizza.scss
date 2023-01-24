@@ -1,0 +1,64 @@
+@import '../Variables';
+
+.pizzaContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 70px;
+    p{
+        color: white;
+    }
+    img{
+        display: inline-flex;
+        height: 120px;
+        width: 120px;
+        cursor: pointer;
+        margin-right: 50px;
+    }
+    img:hover{
+        height: 130px;
+        width: 130px;
+    }
+}
+
+.checklist{
+    position: relative;
+    top: 80px;
+    left: 70px;
+    display: inline;
+    button{
+      margin-left: 10px;
+      background: $secondary;
+      border: none;
+      color: white;
+      text-decoration: none;
+      padding: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    label{
+        color: $secondary;
+        margin-right: 10px;
+    }
+
+}
+#checkmark1, #checkmark2, #checkmark3, #checkmark4, #checkmark5, #checkmark6{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    bottom: 180px;
+    left: 95px;
+    visibility: hidden;
+}
+
+#x1, #x2, #x3, #x4, #x5, #x6{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    bottom: 180px;
+    left: 15px;
+    visibility: hidden;
+}
+
+#p1, #p2, #p3, #p4, #p5, #p6{
+    visibility: hidden;
+}

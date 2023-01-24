@@ -1,0 +1,14 @@
+@import './Variables';
+
+.container{
+    position: relative;
+    background: $primary;
+    top: 175px;
+    height:67.1vh;
+    h4{
+        position: relative;
+        color: white;
+        left: 10px;
+        top: 10px;
+    }
+}

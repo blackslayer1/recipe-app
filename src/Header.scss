@@ -1,0 +1,37 @@
+@import './Variables';
+
+header{
+    position: fixed;
+    top: 0;
+    background: $secondary;
+    width: 100%;
+    height: 150px;
+    .header > * {
+        position: relative;
+        color: white;
+        font-weight: 600;
+        left: 70px;
+    }
+    .search{
+        background: $tertiary;
+        height: 70px;
+        input{
+            position: relative;
+            padding: 7px;
+            top: 10px;
+            left: 70px;
+            color: gray;
+        }
+        a {
+            position: absolute;
+            left: 256px;
+            height: 13px;
+            top: 140px;
+            background: $secondary;
+            border: none;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+    }
+}

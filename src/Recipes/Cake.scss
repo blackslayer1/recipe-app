@@ -1,0 +1,43 @@
+@import '../Variables';
+
+.pizzaContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 70px;
+    p{
+        color: white;
+    }
+    img{
+        display: inline-flex;
+        height: 120px;
+        width: 120px;
+        cursor: pointer;
+        margin-right: 50px;
+    }
+    img:hover{
+        height: 130px;
+        width: 130px;
+    }
+}
+
+.checklist{
+    position: relative;
+    top: 80px;
+    left: 70px;
+    display: inline;
+    button{
+      margin-left: 10px;
+      background: $secondary;
+      border: none;
+      color: white;
+      text-decoration: none;
+      padding: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    label{
+        color: $secondary;
+        margin-right: 10px;
+    }
+
+}
